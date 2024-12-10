@@ -1,6 +1,28 @@
-body{
-    background-color: red($color: #000000);
-    position: relative;
-    text-outline: 0 0 #000;
-    background-attachment: fixed;
+* {
+    margin: 0;
+    padding: 0;
 }
+.flex{
+    display: flex;
+}
+header{
+    margin-top: 18px;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.container{
+    width: 920px;
+    margin: auto;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Roboto", sans-serif;
+}
+a, button{
+    font-family: "Roboto", sans-serif;
+}
+@import "./components/nav";
+@import "./components/button";

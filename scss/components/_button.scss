@@ -1,0 +1,12 @@
+.btn-primary{
+    font-size: 0.75rem;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #111B47;
+    padding: .5rem 3.625rem;
+    color: #fff;
+    transition: all .4s;
+    &:hover{
+        background-color: red;
+    }
+}

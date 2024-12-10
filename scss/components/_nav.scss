@@ -1,0 +1,16 @@
+.nav{
+    ul{
+        list-style: none;
+        gap: 3.75rem;
+        li{
+            a{
+                font-size: 0.875rem;
+                text-decoration: none;
+                transition: all .5s;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+    }
+}
