@@ -1,6 +1,55 @@
 /*!**********************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./scss/style.scss ***!
   \**********************************************************************************************************/
-.main div {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-betwen {
+  justify-content: space-between;
+}
+
+.contenar {
+  width: 1440px;
+  height: 60px;
+}
+
+.button a {
+  background-color: rgb(17, 27, 71);
+  padding: 6px 60px;
+  outline: none;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.button a:hover {
+  background-color: aqua;
+  color: gray;
+}
+
+header .menu-warper {
+  height: 60px;
+  width: 1444px;
+  margin: auto;
+  text-align: center;
+}
+header .menu-warper div {
+  margin: auto;
+}
+header .menu-warper div ul {
+  list-style-type: none;
+  display: flex;
+  gap: 60px;
+}
+header .menu-warper div ul li a {
+  text-decoration: none;
+  color: rgb(80, 95, 152);
+}
+header .menu-warper div ul li a:hover {
+  color: gray;
 }
