@@ -1,18 +1,53 @@
 .container{
-    
-        .text-bar{
-                 .icon-content{
-                    margin-top: 50px;
-                    .left{
+  .text-bar{
+    .icon-content{
+        margin-top: 50px;
+      .left-box{
+        width: 255px;
+        height: 138px;
+                
 
+                  
+         .left{
+                 width: 25px;
+                height: 25px;
+          .left-title{
+                        position: absolute;
+                         margin-top: 10px;
+
+                        }
+           .left-text{
+                position: absolute;
+                width: 200px;
+                height: 80px;
+                margin-top: 30px;
+
+                        }
                     }
-                     .right{
+                }
+            .right-box{
+                width: 255px;
+                height: 138px; 
 
+            .right{
+                   width: 25px;
+                    height: 25px;
+              .right-title{
+                position: absolute;
+                         margin-top: 10px
+
+              }
+              .right-text{
+                position: absolute;
+                width: 200px;
+                height: 80px;
+                margin-top: 30px;
+
+              }      
                     }
-
                 }
 
-
+                }
         
         }
 } 
