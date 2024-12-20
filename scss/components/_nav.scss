@@ -11,6 +11,14 @@
                     color: red;
                 }
             }
+            ul {
+                display: none;
+                position: absolute;
+            }
+            &:hover  ul{
+                display: block;
+            }
         }
     }
 }
+
