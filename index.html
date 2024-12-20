@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dist/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Home page</title>
 </head>
 <body>
@@ -11,7 +14,13 @@
     <div class="menu-warper flex flex-betwen">
         <div class="">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a>
+                <ul class="drop-down">
+                    <li><a href="#">Home2</a></li>
+                    <li><a href="#">Home2</a></li>
+                    <li><a href="#">Home3</a></li>
+                    <li></li>
+                </ul></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -23,5 +32,42 @@
         
     </div>
 </header>
+    <div class="banar flex flex-betwen">
+        <div class="banar-text">
+            <p class="para-1">Introduce Your Product Quickly & Effectively</p><br>
+            <p class="para-2">  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br>
+                mus. Donec quam felis, ultricies nec, pellentesque   pretium quis, sem. Nulla consequat massa quis enim.</p>
+                <div class="flex ">
+                   <div class=" button"><a href="">Purchase UI Kit</a></div>
+                   <div class="button-2"><a href="">Learn More</a></div>
+            </div>
+        </div>
+        <div class="banar-img"><img src="./assets/img/Hero.svg" alt=""></div>
+    </div>
+
+
+    <!--title-->
+    <div class="title-box flex flex-betwen">
+        <div class="left-title">
+            <p class="bold-text">Light, Fast & Powerful</p>
+            <p class="normal-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br>
+                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
+            <div class="left-bottom-title flex flex-betwen">
+                <div class="bottom-text-left">
+                    <p class="bold-texts">Title Goes Here</p>
+                    <p class="normal-texts">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                </div>
+                <div class="bottom-text-right">
+                    <p class="bold-texts">Title Goes Here</p>
+                    <p class="normal-texts">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="right-title">
+            <img src="./assets/img/undraw_mobile_login_ikmv@2x.svg" alt="">
+        </div>
+    </div>
+
 </body>
 </html>

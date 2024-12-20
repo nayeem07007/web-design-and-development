@@ -1,0 +1,28 @@
+header {
+    .menu-warper {
+        height: 3.75rem;  // 60px => 3.75rem
+        width: 90.25rem;  // 1444px => 90.25rem
+        margin: auto;
+        text-align: center;
+        
+        div {
+            margin: auto;
+            
+            ul {
+                list-style-type: none;
+                gap: 3.75rem;  // 60px => 3.75rem
+                
+                li {
+                    a {
+                        text-decoration: none;
+                        color: rgb(80, 95, 152);
+                        
+                        &:hover {
+                            color: gray;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
