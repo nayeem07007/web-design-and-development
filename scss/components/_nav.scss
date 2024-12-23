@@ -11,6 +11,14 @@
                     color: rgb(47, 0, 255);
                 }
             }
+            ul {
+                display: none;
+                position: absolute;
+            }
+            &:hover  ul{
+                display: block;
+            }
         }
     }
 }
+
