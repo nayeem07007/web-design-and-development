@@ -1,5 +1,5 @@
 .container{
-    margin-top: 150px;
+  
  .intor-pic{
     
       
@@ -10,13 +10,20 @@
     
  }
     .intor-title{
+                margin-top: -35px;
                  position: absolute;
+                 font-weight: 500;
+                 font-size: 36px;
+                 color: #091133;
     
   } 
   .intor-text{
              position: absolute;
              margin-top: 40px;
              width: 445px;
+             font-weight: 400;
+             font-size: 16px;
+             color: #6F7CB2;
              .intor-button{
                 margin-top: 50px;
                  width: 150px;

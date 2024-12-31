@@ -4,27 +4,47 @@
         width: 539px;
         margin-top: 303px;
         .text{
+            width: 549px;
+            height: 132px;
+          .title{
+            color: #091133;
+            font-weight: 500;
+            font-size: 50px;
+
+          } 
+          .des{
+            color: #505F98;
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 18px;
+
+          } 
 
         }
         .content-btn{
-            margin-top: 50px; 
+            margin-top: 180px; 
           
             .btn-1{
-               padding: 20px 30px;
+               padding: 10px 20px;
                background-color:#111b47;
                font-size: 16px;
                font-weight: 500;
                color: white;
+               text-decoration: none;
                
             
             } 
             .btn-2{
-               padding: 20px 30px;
-               background-color: rgb(50, 193, 62);
+               padding: 10px 20px;
+               border: solid 2px #091133;
+               border-radius: 2px;
                font-size: 16px;
                font-weight: 500;
-               color: white;
+               color:#091133;
                margin-left: 20px;
+               text-decoration: none;
+
+
                
                
               
