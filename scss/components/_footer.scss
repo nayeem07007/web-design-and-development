@@ -1,5 +1,13 @@
+
+.footer-bg{
+   background-color: #E7ECFF;
 .container{
    .footer-top{
+     .years{
+       font-weight: 500;
+       font-size: 14px;
+       color: #939EA4;
+     } 
       .landing-text{
          color: #37447E;
          font-weight: 900;
@@ -24,8 +32,12 @@
         margin-top: 20px;
      }
          .footer-nav{
+            margin-top: 25px;
 
        .footer-nav-iteam{
+          color: #929ECC;
+          font-weight: 400;
+          font-size: 14px;
 
          }
          .footer-icon1{
@@ -37,4 +49,5 @@
          }
        
     } 
+}
 }

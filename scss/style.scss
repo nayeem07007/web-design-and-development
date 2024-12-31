@@ -36,7 +36,12 @@ a, button{
 }
 .ul{
     list-style: none;
-    gap: 40px
+    gap: 40px;
+    
+}
+.text{
+    width: 445px;
+    height: 228px;
 }
 
 @import "./components/nav";
