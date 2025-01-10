@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #3498db;
+}
+body h1 {
+  text-align: center;
+}
+body h1:hover {
+  color: black;
+  background-color: yellow;
+}
+body h2 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
