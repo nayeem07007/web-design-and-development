@@ -1,5 +1,32 @@
+*{
+      margin: 0;
+      padding: 0;
+}
 body{
-      background-color: blue;
-      height: 200px;
-      width: 300px;
+      font-family: "Roboto", serif;
+}
+.flex{
+      display: flex;
+}
+.justyfy-between{
+      justify-content: space-between;
+}
+.container{
+      width: 920px;
+      margin: auto;
+}
+@import "./nav";
+
+.allitem{
+      gap: 10px;
+      flex-flow: row wrap;
+      .item1{
+            background-color: red;
+            width: 100px;
+           text-align: center;
+           margin: 10px;
+           line-height: 75px;
+
+           
+      }
 }
