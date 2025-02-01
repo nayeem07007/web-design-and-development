@@ -4,6 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="dist/styles.css">
+      <link rel="stylesheet" href="src/all.min.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -11,32 +12,53 @@
 </head>
 <body>
     <div class="menu-wraper flex justyfy-between container">
+      <div class="logoimg"><a href="/"><img src="./assets/img/A+ Studio.png" alt=""></a></div>
       <div class="nav">
         <ul class="flex">
-            <li><a href="#"></a>Home</li>
-            <li><a href="#"></a>About</li>
-            <li><a href="#"></a>Contact</li>
+            <li><a href="#">Home  <i class="fa fa-caret-down"></i> </a>
+              <ul>
+                <li><a href="#">house</a></li>
+                <li><a href="#">house</a></li>
+                <li><a href="#">house</a></li>
+                <li><a href="#">house</a>
+                  <ul>
+                    <li><a href="#">utensil</a></li>
+                    <li><a href="#">utensil</a></li>
+                    <li><a href="#">utensil</a>
+                      <ul>
+                        <li><a href="#">spone</a></li>
+                        <li><a href="#">spone</a></li>
+                        
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">What We Do</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
       </div> 
-      <div class="logoimg"><a href="/"><img src="./assets/img/Landie.svg" alt=""></a></div>
-      <div class="but"><a href="#">Buy Now</a></div> 
-      </div>
+      </div> 
 
-      <!-- flexbox -->
+      <!-- start hero section -->
 
-      <div class="allitem flex justyfy-between container">
-        <div class="item1">1</div>
-        <div class="item1">2</div>
-        <div class="item1">3</div>
-        <div class="item1">4</div>
-        <div class="item1">5</div>
-        <div class="item1">5</div>
-        <div class="item1">5</div>
-        <div class="item1">5</div>
-        <div class="item1">5</div>
-        <div class="item1">8</div>
+      <div class="container">
+        <section class="flex">
+          <div class="product">
+            <div class="product-text">
+              <h1>A Digital Product Agency</h1>
+              <p>Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services.</p>
+              <button>Contact Now</button>
+            </div>
+          </div>
+          <div class="product-img">
+            <img src="./assets/img/hero.png" alt="">
+          </div>
+        </section>
       </div>
-      
-    
 </body>
 </html>

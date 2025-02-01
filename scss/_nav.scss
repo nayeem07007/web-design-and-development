@@ -1,12 +1,53 @@
 .nav{
       ul{ 
             list-style: none;
-            li{
-                  padding: 20px;
-
-                  a{
-                        font-size: 14px;
+            gap: 40px;
+            li{      
+                   a{
+                        font-size: 16px;
                         text-decoration: none;
+                        transition: all .5s;
+                        font-weight: 400px;
+                        color: rgba(0, 0, 0, 1);
+                  }
+                  ul{
+                        display: none;
+                        
+                  }
+                  &:hover ul{
+                        display: block;
+                        position: absolute;
+                        transition: all .5s;
+                        background-color: blue;
+                        border-radius: 5px;
+                        li{
+                              padding: 10px;
+                             
+                              ul{
+                                    display: none;
+                              }
+                              &:hover ul{
+                                    display: block;
+                                    position: absolute;
+                                    transition: all .5s;
+                                    margin-left: 60px;
+                                    margin-top: -110px;
+                                    background-color: blueviolet;
+                                    li{
+                                          ul{
+                                                display: none;
+                                          }
+                                          &:hover ul{
+                                                display: block;
+                                                margin-left: 65px;
+                                                margin-top: -70px;
+                                                background-color: aqua;
+                                                
+                                          }
+                                    }
+                              }
+
+                        }
                   }
             }
       }
